@@ -4,8 +4,8 @@
 
 .own-bg-color-grey{
   background-color: #fff;
-    text-align: center;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .own-bg-color-light-green{
@@ -20,6 +20,10 @@
 
 .text-color-grey{
   color: #fff;
+}
+
+.text-color-dark-green{
+  color: #357376;
 }
 
 .star-checked {
