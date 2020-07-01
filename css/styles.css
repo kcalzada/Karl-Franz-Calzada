@@ -1,27 +1,21 @@
-html,body{
-    margin:0;
-    height: 100%;
-    background-color: #32e0c4;
-    position: relative;
+.top-margin-first-container{
+  margin-top: 3.6875rem;
 }
 
-.sample{
-  background-color: #393e46;
-  height: 100%;
-  width:200px;
+.own-bg-color-grey{
+  background-color: #fff;
+    text-align: center;
 }
 
-.name{
-  color: #393e46;
-  margin: 0px;
-  position: absolute;
-  left: 400px;
-  top: 15px;
+.own-bg-color-light-green{
+  background-color: #6ba8a9;
+  text-align: center;
 }
 
-.skill-navbar{
-  position: absolute;
-  color: #eeeeee;
-  top: 15px;
-  margin: 0px;
+.text-color-green{
+  color: #6ba8a9;
+}
+
+.text-color-grey{
+  color: #fff;
 }

@@ -4,16 +4,94 @@
     <meta charset="utf-8">
     <title>Karl Franz Calzada</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="icon" href="image source/k.ico">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
+
   <body>
-    <div class="sample">
-      <h1 class="">Profile</h1>
-      <h1 class="">Experiences</h1>
-      <h1 class="">Skills</h1>
-      <h1 class="">Project</h1>
-      <h1 class="">Contact</h1>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="image source/k.ico" width="30" height="30" alt="" loading="lazy">
+      </a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container top-margin-first-container">
+      <!-- Profile Section -->
+      <div class="container-fluid own-bg-color-grey ml-auto">
+        <h1>Profile</h1>
+        <hr class="my-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm text-left">
+              <h2 class="text-color-green">Details</h2>
+              <h4><span class="font-weight-bold">Name:</span><br>Karl Franz Calzada</h4>
+              <h4><span class="font-weight-bold">Age:</span><br>24</h4>
+              <h4><span class="font-weight-bold">Addess:</span><br>Danao City, Cebu</h4>
+            </div>
+            <div class="col-sm">
+              <img class="rounded-circle w-75" src="image source/me.jpg" alt="">
+            </div>
+            <div class="col-sm text-left">
+              <h2 class="text-color-green">About me</h2>
+              <p>
+                I am an experienced Software Engineer. Most of my work involved embedded software but i can also do Web Development.
+                The Embedded Sofware i helped develop were for ATMs in Japan. Some of the tasks involve were manipulating the data
+                of the ATM, what to print in specific transactions and developing the settings of an ATM.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Skills Section -->
+      <div class="container-fluid own-bg-color-light-green ml-auto">
+        <h1>Skills</h1>
+        <hr class="my-4">
+      </div>
+      <!-- Experience Section -->
+      <div class="container-fluid own-bg-color-grey ml-auto">
+        <h1>Experience</h1>
+        <hr class="my-4">
+      </div>
+      <!-- Projects Section -->
+      <div class="container-fluid own-bg-color-light-green ml-auto">
+        <h1>Projects</h1>
+        <hr class="my-4">
+      </div>
+      <!-- Contact Section -->
+      <div class="container-fluid own-bg-color-grey ml-auto">
+        <h1>Contact</h1>
+        <hr class="my-4">
+      </div>
+
     </div>
-    <h1 class="name">Karl Franz Calzada</h1>
+
+
   </body>
 </html>
