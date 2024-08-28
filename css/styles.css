@@ -26,6 +26,10 @@
   color: #357376;
 }
 
+.text-align-left{
+  text-align: left;
+}
+
 .star-checked {
   color: #1d4d4f;
 }
